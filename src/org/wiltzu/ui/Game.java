@@ -23,12 +23,13 @@ import javax.swing.JMenu;
 import javax.swing.JMenuBar;
 import javax.swing.JMenuItem;
 import javax.swing.JPanel;
+import javax.swing.SwingUtilities;
 
 import org.wiltzu.listener.BasicKeyListener;
-import org.wiltzu.ui.component.CollisionException;
 import org.wiltzu.ui.component.ColoredWorm;
 import org.wiltzu.ui.component.Drawable;
 import org.wiltzu.ui.component.Worm;
+import org.wiltzu.ui.component.exception.CollisionException;
 import org.wiltzu.ui.component.food.Food;
 import org.wiltzu.ui.component.food.FoodFactory;
 import org.wiltzu.util.Direction;
@@ -127,7 +128,6 @@ public class Game extends JFrame implements Runnable {
 
 		Game gameWindow = new Game();
 		gameWindow.setVisible(true);
-		gameWindow.startGame();
 	}
 
 	@Override
@@ -227,8 +227,6 @@ public class Game extends JFrame implements Runnable {
 			updateGameTitle();
 		}
 	}
-
-	private int counter = 0;
 
 	private void updateGameTitle() {
 		setTitle(gameTitle + " - Score: " + gameScore);

@@ -4,6 +4,7 @@
  */
 package org.wiltzu.ui.component;
 
+import org.wiltzu.ui.component.exception.CollisionException;
 import org.wiltzu.ui.component.food.Food;
 
 import java.awt.Color;

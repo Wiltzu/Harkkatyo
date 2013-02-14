@@ -1,10 +1,9 @@
-/*
- * To change this template, choose Tools | Templates
- * and open the template in the editor.
- */
+
 package org.wiltzu.ui.component;
 
 import javax.swing.JPanel;
+
+import org.wiltzu.ui.component.exception.CollisionException;
 import org.wiltzu.util.Direction;
 
 /**

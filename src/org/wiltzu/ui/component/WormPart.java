@@ -10,6 +10,8 @@ import java.awt.Rectangle;
 import javax.swing.JComponent;
 import javax.swing.JPanel;
 import javax.swing.event.EventListenerList;
+
+import org.wiltzu.ui.component.exception.CollisionException;
 import org.wiltzu.util.Direction;
 
 /**
