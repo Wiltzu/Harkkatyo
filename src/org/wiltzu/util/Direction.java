@@ -1,16 +1,19 @@
-/*
- * To change this template, choose Tools | Templates
- * and open the template in the editor.
- */
 package org.wiltzu.util;
 
 /**
+ *<p>Enum class that represents directions: left, right, up and down.</p>
  *
- * @author Ville
+ * @author Ville Ahti
  */
 public enum Direction {
     UP, DOWN, LEFT, RIGHT;
     
+    /**
+     * <p>Getter for an opposite of some direction</p>
+     * 
+     * @param direction which opposite we want
+     * @return opposite of given parameter
+     */
     public static Direction getOpposite(Direction direction){
         Direction oppDir = UP;
         switch(direction) {
