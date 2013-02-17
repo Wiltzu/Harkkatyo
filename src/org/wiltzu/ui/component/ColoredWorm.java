@@ -6,7 +6,7 @@ import java.awt.Graphics;
 import org.wiltzu.util.Direction;
 
 /**
- * <p></p>
+ * <p>ColoredWorm is a specialization of the worm that is colored.</p>
  * 
  * @author Ville Ahti
  *
@@ -16,12 +16,12 @@ public class ColoredWorm extends Worm {
 	private Color color;
 
 	/**
-	 * <p></p>
+	 * <p>Constructor for this class.</p>
 	 * 
-	 * @param direction
-	 * @param x
-	 * @param y
-	 * @param color
+	 * @param direction initially
+	 * @param x	coordinate
+	 * @param y coordinate
+	 * @param color of the worm
 	 */
 	public ColoredWorm(Direction direction, int x, int y, Color color) {
 		super(direction, x, y);

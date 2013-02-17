@@ -4,7 +4,6 @@
  */
 package org.wiltzu.ui.component.food;
 
-import java.math.MathContext;
 import java.util.Random;
 
 /**
