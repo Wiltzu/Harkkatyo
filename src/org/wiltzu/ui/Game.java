@@ -29,7 +29,7 @@ import org.wiltzu.ui.component.food.FoodFactory;
 import org.wiltzu.util.Direction;
 
 /**
- * <p>This class is main class of game. Game class consist of UI and runs game loop.</p>
+ * <p>This class is main class of game. Game class implements the user interface and runs game loop.</p>
  * 
  * @author Ville Ahti
  */
